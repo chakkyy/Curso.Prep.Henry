@@ -16,7 +16,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  if (edad>18){
+  if (edad>17){
     return "Allowed";
   } else{
     return "Not allowed";
@@ -45,16 +45,16 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if(idioma===aleman){
+  if(idioma==="aleman"){
     return "Guten Tag!";
-  } if (idioma===mandarin){
+  } if (idioma==="mandarin"){
     return "Ni Hao!";
-  } else if (idioma===ingles){
+  } else if (idioma==="ingles"){
     return "Hello!";
-  } else{
-    return "Hola!"
+  }  return "Hola!"
   }
-}
+ 
+
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -136,6 +136,7 @@ function operadoresLogicos(num1, num2, num3) {
   }
   else {
     return false;
+}
 }
 
 function esPrimo(numero) {
@@ -221,4 +222,5 @@ module.exports = {
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
-};
+}
+
